@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_id"
     android:layout_width="match_parent"
     android:layout_height="180dp"
     android:background="@drawable/navdrawerbg"
@@ -15,7 +16,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="110dp"
-        android:layout_height="100dp"
+        android:layout_height="110dp"
         android:paddingTop="2dp"
         app:srcCompat="@mipmap/navdrawer_icon" />
 
@@ -24,18 +25,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/aclonica"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Vibha S Navale"
+        android:text="NotePad"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        android:textColor="@color/colourText" />
+        android:textColor="@color/colourText"
+        android:textSize="16sp" /><![CDATA[
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/happy_monkey"
-        android:text="vibha.navale11@gmail.com"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="@color/colourText" />
     />
 
+]]>
 </LinearLayout>
